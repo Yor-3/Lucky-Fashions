@@ -72,23 +72,23 @@ const Navbar = ({setData,cart}) => {
             <div
             onClick={()=>filterByCategory('Ethenic')}
     
-             className="items">Ethenic</div>
+             className="items">Ethnic</div>
             <div
             onClick={()=>filterByCategory('Western')}
     
              className="items">Western</div>
             <div
             onClick={()=>filterByPrice(0,1000)}
-            className="items">{">="}1000</div>
+            className="items">0{"-"}1000</div>
             <div
             onClick={()=>filterByPrice(1000,3000)}
-            className="items">{">="}3000</div>
+            className="items">1000{"-"}3000</div>
             <div
             onClick={()=>filterByPrice(3000,5000)}
-            className="items">{">="}5000</div>
+            className="items">3000{"-"}5000</div>
             <div
             onClick={()=>filterByPrice(5000,10000)}
-            className="items">{">="}10000</div>
+            className="items">5000{"-"}10000</div>
             
             </div>
           )
