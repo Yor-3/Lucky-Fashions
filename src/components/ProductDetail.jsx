@@ -17,7 +17,7 @@ const ProductDetail = ({ cart, setCart }) => {
     setProduct(filterProduct[0]);
 
     const relatedProducts = items.filter(
-      (suman) => suman.category === product.category
+      (p) => p.category === product.category
     );
 
     // console.log("RelatedProduct = ",relatedProducts)
